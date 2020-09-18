@@ -1,3 +1,9 @@
+.btn-group {
+  margin-left:200px;
+  margin-right:200px;
+  margin-top:20px;
+}
+
 body {
 background-image: url('back2.jpg');
 background-repeat: no-repeat;
@@ -8,9 +14,9 @@ background-size: 100% 100%;
   body {
     background-color: lightblue;
   }
-  
+
 p {
-  color: black;
+  color: #d4ff5e;
   font-size: 20px;
   font-family: "Times New Roman";
   margin-left: -30%;
@@ -18,7 +24,7 @@ p {
 }
 
 h1 {
-  color: #454444;
+  color: #568fe3;
   font-family: "Times New Roman";
   margin-left: 42%;
 
@@ -32,56 +38,64 @@ h1 {
   font-size: 1rem;
   margin-left:-5%;
   text-align: center;
-  color:#5420e3;
+  color:lightblue;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
-  background-color: #d4bebe;
+  background-color:grey;
   background-image: linear-gradient(to top left,
                                     rgba(0, 0, 0, .2),
                                     rgba(0, 0, 0, .2) 30%,
                                     rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px #e32020,
-              inset -2px -2px 3px #5420e3;
+  box-shadow: inset 2px 2px 3px black,
+              inset -2px -2px 3px black;
 }
 
-.styled:hover {
-  background-color: #915656;
+.styled1:hover {
+  background-color: green;
+  border:none;
+  outline:focus;
+  color:yellow;
+  box-shadow: inset 2px 2px 3px yellow,
+              inset -2px -2px 3px yellow;
 }
 
-.styled:active {
-  box-shadow: inset -2px -2px 3px #e32020,
-              inset 2px 2px 3px #5420e3;
+.styled1:active {
+  box-shadow: inset -2px -2px 3px red,
+              inset 2px 2px 3px red;
+
 }
 
 
 
-.styled {
-  border: 0;
+.btn-group button {
+ border: 0;
   line-height: 2.5;
   padding: 0 20px;
   font-size: 1rem;
+  margin-left:2%;
   text-align: center;
-  color:#5420e3;
+  color:lightblue;
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
-  background-color: #d4bebe;
-  background-image: linear-gradient(to top left,
-                                    rgba(0, 0, 0, .2),
-                                    rgba(0, 0, 0, .2) 30%,
-                                    rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px #e32020,
-              inset -2px -2px 3px #5420e3;
+  background-color:grey;
+  box-shadow: inset 2px 2px 3px black,
+              inset -2px -2px 3px black;
 }
 
-.styled:hover {
-  background-color: #915656;
+/* Add a background color on hover */
+.btn-group button:hover {
+ background-color: green;
+  border:none;
+  outline:focus;
+  color:yellow;
+  box-shadow: inset 2px 2px 3px yellow,
+              inset -2px -2px 3px yellow;
 }
 
-.styled:active {
-  box-shadow: inset -2px -2px 3px #e32020,
-              inset 2px 2px 3px #5420e3;
+.btn-group button:active {
+  box-shadow: inset -2px -2px 3px red,
+              inset 2px 2px 3px red;
 }
-
 
 table {
   margin-bottom: 2%;
@@ -94,4 +108,17 @@ table {
 img {
   margin-left: 40%;
   margin-right: 10%;
+}
+
+.tbl{
+
+  width:20%; /* The width is 20%, by default */
+}
+
+
+/* Use a media query to add a break point at 800px: */
+@media screen and (max-width:800px) {
+  .tbl {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
 }
