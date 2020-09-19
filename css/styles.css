@@ -1,3 +1,12 @@
+.unselectable {
+       -webkit-user-select: none;
+       -webkit-touch-callout: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+       color: #cc0000;
+}
+
 .btn-group {
   margin-left:200px;
   margin-right:200px;
@@ -16,7 +25,7 @@ p {
   color: #d4ff5e;
   font-size: 20px;
   font-family: "Times New Roman";
-  margin-left: -30%;
+  margin-left: 25%;
 
 }
 
@@ -33,7 +42,7 @@ h1 {
   line-height: 2.5;
   padding: 0 20px;
   font-size: 1rem;
-  margin-left:-5%;
+  margin-left:37%;
   text-align: center;
   color:lightblue;
   text-shadow: 1px 1px 1px #000;
@@ -111,8 +120,10 @@ table {
 
 
 img {
+  margin-top: 8%;
   margin-left: 40%;
   margin-right: 10%;
+
 }
 
 
