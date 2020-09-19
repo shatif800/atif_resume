@@ -36,43 +36,6 @@ h1 {
 
 }
 
-
-.styled1 {
-  border: 0;
-  line-height: 2.5;
-  padding: 0 20px;
-  font-size: 1rem;
-  margin-left:37%;
-  text-align: center;
-  color:lightblue;
-  text-shadow: 1px 1px 1px #000;
-  border-radius: 10px;
-  background-color:grey;
-  background-image: linear-gradient(to top left,
-                                    rgba(0, 0, 0, .2),
-                                    rgba(0, 0, 0, .2) 30%,
-                                    rgba(0, 0, 0, 0));
-  box-shadow: inset 2px 2px 3px black,
-              inset -2px -2px 3px black;
-}
-
-.styled1:hover {
-  background-color: green;
-  border:none;
-  outline:focus;
-  color:yellow;
-  box-shadow: inset 2px 2px 3px yellow,
-              inset -2px -2px 3px yellow;
-}
-
-.styled1:active {
-  box-shadow: inset -2px -2px 3px red,
-              inset 2px 2px 3px red;
-
-}
-
-
-
 .btn-group button {
  border: 0;
   line-height: 2.5;
@@ -92,16 +55,12 @@ h1 {
 .btn-group button:hover {
  background-color: green;
   border:none;
-  outline:focus;
   color:yellow;
   box-shadow: inset 2px 2px 3px yellow,
               inset -2px -2px 3px yellow;
 }
 
 .btn-group button:active {
-  background-color: green;
-   border:none;
-   outline:focus;
    color:red;
   box-shadow: inset -2px -2px 3px red,
               inset 2px 2px 3px red;
@@ -110,6 +69,41 @@ h1 {
 .btn-group button:focus {
    outline:none;
 }
+
+.btn-group2 button {
+ border: 0;
+  line-height: 2.5;
+  padding: 0 20px;
+  font-size: 1rem;
+  margin-left:37%;
+  text-align: center;
+  color:lightblue;
+  text-shadow: 1px 1px 1px #000;
+  border-radius: 10px;
+  background-color:grey;
+  box-shadow: inset 2px 2px 3px black,
+              inset -2px -2px 3px black;
+}
+
+/* Add a background color on hover */
+.btn-group2 button:hover {
+ background-color: green;
+  border:none;
+  color:yellow;
+  box-shadow: inset 2px 2px 3px yellow,
+              inset -2px -2px 3px yellow;
+}
+
+.btn-group2 button:active {
+   color:red;
+  box-shadow: inset -2px -2px 3px red,
+              inset 2px 2px 3px red;
+}
+
+.btn-group2 button:focus {
+   outline:none;
+}
+
 
 table {
   margin-bottom: 2%;
