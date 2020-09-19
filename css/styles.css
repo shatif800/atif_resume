@@ -9,11 +9,8 @@ background-image: url('back2.jpg');
 background-repeat: no-repeat;
 background-attachment: fixed;
 background-size: 100% 100%;
+background-color:lightblue;
 }
-
-  body {
-    background-color: lightblue;
-  }
 
 p {
   color: #d4ff5e;
@@ -93,8 +90,16 @@ h1 {
 }
 
 .btn-group button:active {
+  background-color: green;
+   border:none;
+   outline:focus;
+   color:red;
   box-shadow: inset -2px -2px 3px red,
               inset 2px 2px 3px red;
+}
+
+.btn-group button:focus {
+   outline:none;
 }
 
 table {
@@ -110,10 +115,6 @@ img {
   margin-right: 10%;
 }
 
-.tbl{
-
-  width:20%; /* The width is 20%, by default */
-}
 
 
 /* Use a media query to add a break point at 800px: */
